@@ -1,4 +1,14 @@
 /* 전체 요소에 대한 기본 설정 */
+@font-face {
+    font-family: "BMHANNAAir";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "BMHANNAAir";
+}
 * {
     margin: 0; /* 모든 요소의 기본 마진을 0으로 설정 */
     padding: 0; /* 모든 요소의 기본 패딩을 0으로 설정 */
@@ -45,6 +55,18 @@ header {
 #top {
     /* 너비를 뷰포트 너비로 설정 */
     background: #000; /* 배경색을 검은색으로 설정 */
+    width: 100%;
+    height: 30px;
+}
+.signin {
+    display: inline-flex;
+    position: relative;
+    bottom: 80px;
+    left: 40%;
+    color: #000;
+}
+.signin img {
+    width: 65px;
 }
 
 /* 상단바 내부 요소 배치 */
@@ -92,7 +114,7 @@ header {
 /* 로고 텍스트 스타일 */
 #logo h1 {
     text-align: center; /* 텍스트를 가운데 정렬 */
-    font-family: "Merienda", cursive; /* 폰트를 설정 */
+    /* 폰트를 설정 */
     font-weight: 800%; /* 글자 굵기를 800%로 설정 */
     font-size: 35px; /* 글자 크기를 35px로 설정 */
     color: #000; /* 글자 색상을 검은색으로 설정 */
@@ -117,13 +139,14 @@ header {
 nav {
     float: left; /* 왼쪽으로 플로팅 */
     /* 너비를 1000px로 설정 */
-    font: 1.1rem "Fira Sans", sans-serif; /* 폰트를 설정 */
+    /* 폰트를 설정 */
     height: 70px; /* 높이를 70px로 설정 */
     padding-top: 10px; /* 위쪽 패딩을 10px로 설정 */
 }
 
 /* 상단 메뉴 스타일 */
 #topMenu {
+    font-size: 15pt;
     height: 60px; /* 높이를 60px로 설정 */
 }
 
@@ -174,7 +197,7 @@ nav {
 #ulist > li > a {
     margin: auto; /* 자동 마진 설정 */
     display: block; /* 블록 요소로 설정 */
-    font-size: 1em; /* 글자 크기를 1em로 설정 */
+    font-size: 15pt; /* 글자 크기를 1em로 설정 */
     color: #000; /* 글자 색상을 검은색으로 설정 */
     font-weight: 600; /* 글자 굵기를 600으로 설정 */
     padding: 0px 60px; /* 패딩을 설정 */
@@ -231,7 +254,7 @@ main div {
 }
 
 main h3 {
-    font-size: 1.2em;
+    font-size: 16pt;
     line-height: 2.2;
 }
 
@@ -239,6 +262,7 @@ main h3 {
     line-height: 2;
     color: #222;
 }
+
 .detail > img {
     float: left;
     margin-right: 50px;

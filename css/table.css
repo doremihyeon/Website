@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "BMHANNAAir";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "BMHANNAAir";
+}
+
 * {
     text-decoration: none;
 }
@@ -19,6 +30,7 @@ ul {
 .detail p {
     line-height: 2;
     color: #222;
+    font-size: 15pt;
 }
 .detail > img {
     width: 400px;
@@ -43,4 +55,7 @@ ul {
 #list {
     justify-content: center;
     display: flex;
+}
+.detail b p {
+    font-size: 16pt;
 }
