@@ -18,7 +18,6 @@ ul {
 /* 컨테이너 설정 */
 #container {
     margin: 0 auto; /* 컨테이너를 화면 중앙에 배치 */
-    width: 100vw; /* 너비를 뷰포트 너비로 설정 */
     height: 100%; /* 높이를 100%로 설정 */
     background-color: #ffffff; /* 배경색을 흰색으로 설정 */
 }
@@ -27,7 +26,7 @@ ul {
 .textcen {
     margin-top: 140px; /* 위쪽 마진을 -50px로 설정 */
     text-align: center; /* 텍스트를 가운데 정렬 */
-    width: 100vw; /* 너비를 100%로 설정 */
+    /* 너비를 100%로 설정 */
     height: 80px; /* 높이를 80px로 설정 */
     line-height: 100px; /* 줄 간격을 100px로 설정 */
 }
@@ -38,14 +37,13 @@ ul {
 
 /* 헤더 스타일 설정 */
 header {
-    width: 100vw; /* 너비를 뷰포트 너비로 설정 */
     height: 30px; /* 높이를 30px로 설정 */
     background-color: #fff; /* 배경색을 흰색으로 설정 */
 }
 
 /* 상단바 스타일 설정 */
 #top {
-    width: 100vw; /* 너비를 뷰포트 너비로 설정 */
+    /* 너비를 뷰포트 너비로 설정 */
     background: #000; /* 배경색을 검은색으로 설정 */
 }
 
@@ -53,7 +51,6 @@ header {
 .top_wrap {
     display: flex; /* 플렉스 박스를 사용하여 내부 요소 배치 */
     justify-content: space-between; /* 요소를 양 끝에 배치 */
-    width: 100%; /* 너비를 100%로 설정 */
     margin: 0 auto; /* 중앙에 배치 */
     height: 40px; /* 높이를 40px로 설정 */
     line-height: 40px; /* 줄 간격을 40px로 설정 */
@@ -87,7 +84,7 @@ header {
 /* 로고 스타일 */
 #logo {
     text-align: center; /* 텍스트를 가운데 정렬 */
-    width: 100%; /* 너비를 100%로 설정 */
+    /* 너비를 100%로 설정 */
     height: 100px; /* 높이를 100px로 설정 */
     line-height: 100px; /* 줄 간격을 100px로 설정 */
 }
@@ -119,7 +116,7 @@ header {
 /* 내비게이션 스타일 */
 nav {
     float: left; /* 왼쪽으로 플로팅 */
-    width: 1000px; /* 너비를 1000px로 설정 */
+    /* 너비를 1000px로 설정 */
     font: 1.1rem "Fira Sans", sans-serif; /* 폰트를 설정 */
     height: 70px; /* 높이를 70px로 설정 */
     padding-top: 10px; /* 위쪽 패딩을 10px로 설정 */
@@ -134,7 +131,7 @@ nav {
 #topMenu > li {
     float: left; /* 왼쪽으로 플로팅 */
     position: relative; /* 상대적 위치 설정 */
-    left: 40px; /* 왼쪽 위치를 50px로 설정 */
+    /* 왼쪽 위치를 50px로 설정 */
 }
 
 /* 상단 메뉴 링크 스타일 */
@@ -153,12 +150,14 @@ nav {
 
 /* 본문 중앙 정렬 스타일 */
 #ucen {
-    display: flex; /* 플렉스 박스를 사용하여 내부 요소 배치 */
+    margin-top: 70px;
+    text-align: center; /* 플렉스 박스를 사용하여 내부 요소 배치 */
     justify-content: center; /* 요소를 가운데 정렬 */
 }
 
 /* 본문 리스트 스타일 */
 #ulist {
+    display: inline-block;
     margin-top: -150px;
     height: 60px; /* 높이를 60px로 설정 */
     justify-content: center; /* 가운데 정렬 */
@@ -168,7 +167,7 @@ nav {
 #ulist > li {
     float: left; /* 왼쪽으로 플로팅 */
     position: relative; /* 상대적 위치 설정 */
-    left: 75px; /* 왼쪽으로 플로팅 */
+    /* 왼쪽으로 플로팅 */
 }
 
 /* 본문 리스트 링크 스타일 */
@@ -187,7 +186,7 @@ nav {
 
 /* 콘텐츠 영역 스타일 */
 #contents {
-    width: 100vw; /* 너비를 100%로 설정 */
+    /* 너비를 100%로 설정 */
     margin: 30px auto; /* 위아래 마진을 30px로 설정하고 중앙에 배치 */
 }
 
@@ -200,17 +199,17 @@ nav {
 
 /* 프레임 스타일 */
 #frames {
-    width: 100vw; /* 너비를 100%로 설정 */
+    width: 98.6vw; /* 너비를 100%로 설정 */
     border: none; /* 테두리를 없앰 */
-    height: 520px; /* 높이를 520px로 설정 */
+    height: 2000px; /* 높이를 520px로 설정 */
 }
 
 /* 메인 프레임 스타일 */
 #mainframes {
-    width: 100vw; /* 너비를 100%로 설정 */
+    /* 너비를 100%로 설정 */
     max-width: 1000px; /* 최대 너비를 1000px로 설정 */
     border: none; /* 테두리를 없앰 */
-    height: 700px; /* 높이를 700px로 설정 */
+    /* 높이를 700px로 설정 */
     margin-top: 100px; /* 위쪽 마진을 100px로 설정 */
     padding: 100px; /* 패딩을 100px로 설정 */
 }
@@ -235,6 +234,7 @@ main h3 {
     font-size: 1.2em;
     line-height: 2.2;
 }
+
 .detail p {
     line-height: 2;
     color: #222;
