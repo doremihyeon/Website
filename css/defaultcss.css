@@ -148,13 +148,13 @@ nav {
 #topMenu {
     font-size: 15pt;
     height: 60px; /* 높이를 60px로 설정 */
+    margin-left: 100px;
 }
 
 /* 상단 메뉴 리스트 아이템 스타일 */
 #topMenu > li {
     float: left; /* 왼쪽으로 플로팅 */
     position: relative; /* 상대적 위치 설정 */
-    /* 왼쪽 위치를 50px로 설정 */
 }
 
 /* 상단 메뉴 링크 스타일 */
@@ -163,7 +163,7 @@ nav {
     font-size: 1em; /* 글자 크기를 1em로 설정 */
     color: #000; /* 글자 색상을 검은색으로 설정 */
     font-weight: 600; /* 글자 굵기를 600으로 설정 */
-    padding: 14.5px 20px; /* 패딩을 설정 */
+    padding: 14.5px 60px; /* 패딩을 설정 */
 }
 
 /* 상단 메뉴 링크 호버 스타일 */
@@ -172,12 +172,31 @@ nav {
 }
 
 /* 본문 중앙 정렬 스타일 */
-#ucen {
+#ucen1 {
+    margin-top: 70px;
+    margin-left: 540px; /* 플렉스 박스를 사용하여 내부 요소 배치 */
+    justify-content: center; /* 요소를 가운데 정렬 */
+}
+#ucen2 {
+    margin-top: 70px;
+    margin-left: 720px; /* 플렉스 박스를 사용하여 내부 요소 배치 */
+    justify-content: center; /* 요소를 가운데 정렬 */
+}
+#ucen3 {
+    margin-top: 70px;
+    margin-left: 715px; /* 플렉스 박스를 사용하여 내부 요소 배치 */
+    justify-content: center; /* 요소를 가운데 정렬 */
+}
+#ucen4 {
     margin-top: 70px;
     text-align: center; /* 플렉스 박스를 사용하여 내부 요소 배치 */
     justify-content: center; /* 요소를 가운데 정렬 */
 }
-
+#ucen5 {
+    margin-top: 70px;
+    text-align: center; /* 플렉스 박스를 사용하여 내부 요소 배치 */
+    justify-content: center; /* 요소를 가운데 정렬 */
+}
 /* 본문 리스트 스타일 */
 #ulist {
     display: inline-block;
@@ -198,13 +217,13 @@ nav {
     margin: auto; /* 자동 마진 설정 */
     display: block; /* 블록 요소로 설정 */
     font-size: 15pt; /* 글자 크기를 1em로 설정 */
-    color: #000; /* 글자 색상을 검은색으로 설정 */
+    color: #9f9f9f; /* 글자 색상을 검은색으로 설정 */
     font-weight: 600; /* 글자 굵기를 600으로 설정 */
     padding: 0px 60px; /* 패딩을 설정 */
     text-align: right; /* 텍스트를 오른쪽 정렬 */
 }
 #ulist > li > a:hover {
-    color: #9137ff; /* 호버 시 글자 색상을 변경 */
+    color: #8953ca; /* 호버 시 글자 색상을 변경 */
 }
 
 /* 콘텐츠 영역 스타일 */
@@ -221,12 +240,24 @@ nav {
 }
 
 /* 프레임 스타일 */
-#frames {
-    width: 98.6vw; /* 너비를 100%로 설정 */
+#frames1 {
+    margin-left: 80px;
+    width: 1800px; /* 너비를 100%로 설정 */
     border: none; /* 테두리를 없앰 */
     height: 2100px; /* 높이를 520px로 설정 */
 }
-
+#frames2 {
+    margin-left: 80px;
+    width: 1800px; /* 너비를 100%로 설정 */
+    border: none; /* 테두리를 없앰 */
+    height: 1750px; /* 높이를 520px로 설정 */
+}
+#frames3 {
+    margin-left: 80px;
+    width: 1800px; /* 너비를 100%로 설정 */
+    border: none; /* 테두리를 없앰 */
+    height: 1100px; /* 높이를 520px로 설정 */
+}
 /* 메인 프레임 스타일 */
 #mainframes {
     /* 너비를 100%로 설정 */
@@ -304,6 +335,6 @@ footer {
 }
 #bottomMenu ul li a,
 #bottomMenu ul li a:visited {
-    font-size: 15px; /* 글자 크기 */
+    font-size: 18px; /* 글자 크기 */
     color: #666; /* 글자 색 */
 }
